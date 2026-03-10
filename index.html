@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother's Bliss | Professional Physiotherapy & Home Visits</title>
+    <meta name="description" content="Book expert physiotherapy appointments. Specializing in clinic & home visits. Explore our upcoming equipment store.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Notification Popup -->
+    <div id="notification-popup" class="popup-container">
+        <div class="popup-content glass-effect">
+            <button class="close-btn" id="close-popup" aria-label="Close Notification"><i class="fas fa-times"></i></button>
+            <div class="popup-icon">
+                <i class="fas fa-home"></i>
+            </div>
+            <h3>Looking for Home Visits?</h3>
+            <p>Yes, home visit is available for physiotherapy! Get professional care at your doorstep.</p>
+            <a href="#contact" class="btn btn-primary btn-pulse" id="popup-contact-btn">Contact Us Now</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar glass-effect">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <i class="fas fa-heartbeat"></i> Mother's Bliss
+            </a>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#facilities">Facilities</a>
+                <a href="#doctors">Doctors</a>
+                <a href="#store">Store</a>
+                <a href="#contact" class="btn btn-outline nav-cta">Book Now</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Open Mobile Menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="badge fade-in-up">Healthcare Excellence</div>
+            <h1 class="fade-in-up delay-1">Restore Your Mobility <br><span>Regain Your Life</span></h1>
+            <p class="fade-in-up delay-2">Expert physiotherapy care tailored to your needs. <strong>Specializing in both clinic treatments and dedicated home visits.</strong></p>
+            <div class="hero-actions fade-in-up delay-3">
+                <a href="#contact" class="btn btn-primary btn-large shadow-hover">Book Appointment</a>
+                <a href="#doctors" class="btn btn-secondary btn-large">Meet Our Doctors</a>
+            </div>
+            <div class="hero-stats fade-in-up delay-4">
+                <div class="stat-item">
+                    <i class="fas fa-user-md stat-icon"></i>
+                    <span>Expert Doctors</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-house-chimney-medical stat-icon"></i>
+                    <span>Home Visits</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-briefcase-medical stat-icon"></i>
+                    <span>Modern Care</span>
+                </div>
+                <!-- Added Beneficiary Count -->
+                <div class="stat-item highlight-stat">
+                    <div class="counter-number">100+</div>
+                    <span>Happy Patients</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="section">
+        <div class="container">
+            <div class="section-header text-center fade-in-scroll">
+                <h2 class="section-title">Our <span class="highlight">Facilities</span></h2>
+                <p class="section-subtitle">Comprehensive specialized therapies for your complete recovery and well-being.</p>
+            </div>
+            
+            <div class="facilities-grid">
+                <div class="facility-card fade-in-scroll card-glass">
+                    <div class="facility-icon"><i class="fas fa-female"></i></div>
+                    <h3>Women's Health Physiotherapy</h3>
+                    <p>Specialized care addressing conditions unique to women across all life stages.</p>
+                </div>
+                
+                <div class="facility-card fade-in-scroll card-glass delay-1">
+                    <div class="facility-icon"><i class="fas fa-user-md"></i></div>
+                    <h3>Pelvic Floor Rehabilitation</h3>
+                    <p>Targeted exercises and treatments to strengthen the pelvic floor muscles.</p>
+                </div>
+                
+                <div class="facility-card fade-in-scroll card-glass delay-2">
+                    <div class="facility-icon"><i class="fas fa-hand-holding-water"></i></div>
+                    <h3>Urinary Incontinence</h3>
+                    <p>Effective management and therapies to regain bladder control and confidence.</p>
+                </div>
+                
+                <div class="facility-card fade-in-scroll card-glass">
+                    <div class="facility-icon"><i class="fas fa-baby"></i></div>
+                    <h3>Pre & Post-natal Rehabilitation</h3>
+                    <p>Safe and guided physical therapy for mothers during and after pregnancy.</p>
+                </div>
+                
+                <div class="facility-card fade-in-scroll card-glass delay-1">
+                    <div class="facility-icon"><i class="fas fa-running"></i></div>
+                    <h3>Ortho, Neuro & Sports Rehabilitation</h3>
+                    <p>Comprehensive care for musculoskeletal, neurological, and sports-related injuries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center fade-in-scroll">
+                <h2 class="section-title">Mother's Bliss <span class="highlight">Specialists</span></h2>
+                <p class="section-subtitle">Meet our highly qualified physiotherapists dedicated to your recovery.</p>
+                <div class="home-visit-banner">
+                    <i class="fas fa-info-circle"></i> Specialty available for Home Visits. Contact us to book!
+                </div>
+            </div>
+
+            <div class="doctors-grid">
+                <!-- Dr. Pratiksha -->
+                <div class="doctor-card fade-in-scroll card-glass">
+                    <div class="doctor-image-placeholder pratiksha-bg">
+                        <i class="fas fa-user-nurse doctor-avatar-icon"></i>
+                    </div>
+                    <div class="doctor-info">
+                        <div class="doctor-badge">Physiotherapist</div>
+                        <h3>Dr. Pratiksha Singh <span>(PT)</span></h3>
+                        <ul class="credentials">
+                            <li><i class="fas fa-graduation-cap"></i> BPT (IIMSR)</li>
+                            <li><i class="fas fa-hospital"></i> Ex (Intern) - Dr. RMLIMS, Lucknow</li>
+                        </ul>
+                        <div class="availability">
+                            <span class="status-dot green"></span> Available for Clinic & Home Visit
+                        </div>
+                        <a href="#contact" class="btn btn-outline btn-full">Book Dr. Pratiksha</a>
+                    </div>
+                </div>
+
+                <!-- Dr. Akash -->
+                <div class="doctor-card fade-in-scroll card-glass delay-1">
+                    <div class="doctor-image-placeholder akash-bg">
+                        <i class="fas fa-user-doctor doctor-avatar-icon"></i>
+                    </div>
+                    <div class="doctor-info">
+                        <div class="doctor-badge">Physiotherapist</div>
+                        <h3>Dr. Akash Singh <span>[PT]</span></h3>
+                        <ul class="credentials">
+                            <li><i class="fas fa-graduation-cap"></i> B.PT [IIMSR]</li>
+                            <li><i class="fas fa-hospital"></i> Ex [intern] - Apollo Medics Super Speciality Hospital Lucknow</li>
+                        </ul>
+                        <div class="availability">
+                            <span class="status-dot green"></span> Available for Clinic & Home Visit
+                        </div>
+                        <a href="#contact" class="btn btn-outline btn-full">Book Dr. Akash</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Section Placeholder -->
+    <section id="store" class="section store-promo dark-mode">
+        <div class="container store-container fade-in-scroll">
+            <div class="store-content">
+                <div class="coming-soon-badge">Coming Soon</div>
+                <h2>Physio Equipment Store</h2>
+                <p>We are launching our online store soon! You will be able to purchase professional-grade physiotherapy equipment and machines directly from our website.</p>
+                <ul class="store-features">
+                    <li><i class="fas fa-check-circle"></i> High Quality Products</li>
+                    <li><i class="fas fa-check-circle"></i> Online Purchasing</li>
+                    <li><i class="fas fa-check-circle"></i> Expert Recommendations</li>
+                </ul>
+                <button class="btn btn-primary disabled" disabled>Store Launching Soon</button>
+            </div>
+            <div class="store-illustration">
+                <div class="floating-item item-1"><i class="fas fa-dumbbell"></i></div>
+                <div class="floating-item item-2"><i class="fas fa-crutch"></i></div>
+                <div class="floating-item item-3"><i class="fas fa-wheelchair"></i></div>
+                <div class="store-circle-bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header text-center fade-in-scroll">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <p class="section-subtitle">Book your clinic appointment or request a home visit today.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info-panel card-glass fade-in-scroll">
+                    <h3>Contact Information</h3>
+                    <p>Reach out to us via call or WhatsApp to schedule your session.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="tel:+919695257001" class="contact-method-card hover-lift">
+                            <div class="method-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="method-details">
+                                <h4>Call Us</h4>
+                                <span>+91 96952 57001</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://wa.me/919695257001" target="_blank" class="contact-method-card whatsapp hover-lift">
+                            <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="method-details">
+                                <h4>WhatsApp</h4>
+                                <span>+91 96952 57001</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-method-card">
+                            <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="method-details">
+                                <h4>Clinic Address</h4>
+                                <span>Lucknow, Uttar Pradesh</span>
+                                <small>(Serving local areas for home visits)</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper card-glass fade-in-scroll delay-1">
+                    <h3>Request an Appointment</h3>
+                    <form class="contact-form" id="booking-form" action="https://formsubmit.co/Drakash625@gmail.com" method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New Appointment Booking - Mother's Bliss">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="E.g. John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your contact number" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Appointment Type</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="appt_type" value="clinic" checked>
+                                    <span>Clinic Visit</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="appt_type" value="home">
+                                    <span>Home Visit <i class="fas fa-home" style="color:var(--primary); font-size: 0.8rem; margin-left: 4px;"></i></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="doctor">Preferred Doctor (Optional)</label>
+                            <select id="doctor" name="doctor">
+                                <option value="any">No Preference</option>
+                                <option value="pratiksha">Dr. Pratiksha Singh (PT)</option>
+                                <option value="akash">Dr. Akash Singh [PT]</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full shadow-hover">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer pt-5">
+        <div class="container text-center">
+            <div class="footer-logo mb-3">
+                <i class="fas fa-heartbeat"></i> Mother's Bliss
+            </div>
+            <p>&copy; 2026 Mother's Bliss. All rights reserved.<br>Software Developer : Vaibhav Pratap Singh</p>
+            <div class="footer-socials mt-3">
+                <a href="https://www.facebook.com/vaibhav.pratap.singh.996222/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only"></span></a>
+                <a href="https://www.instagram.com/vaibhavpratap705/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only"></span></a>
+                <a href="https://x.com/Vaibhav92310781" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only"></span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
